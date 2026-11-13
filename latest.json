@@ -1,13 +1,23 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T00:00:00Z",
+  "updated_at": "2026-11-13T18:02:23Z",
   "channels": {
     "ios": {
-      "latest": null,
+      "latest": "1.4.1",
       "previous": null,
       "mandatory": false,
       "min_supported_version": "1.4.0",
-      "releases": []
+      "releases": [
+        {
+          "version": "1.4.1",
+          "file": "Tieji-v1.4.1.ipa",
+          "size": 3191700,
+          "sha256": "2f0053f08b2357bcfdd6121221f8697f90e22dc5a06b2cb533583bd58726ebd7",
+          "download_url": "https://raw.githubusercontent.com/yuanyeye0210-debug/tieji-releases/main/Tieji-v1.4.1.ipa",
+          "published_at": "2026-11-13T18:02:23Z",
+          "changelog": "新增关于页：可以查看当前版本和更新日志，也能检查有没有新版本并下载安装包；安装包发布到公开下载地址，检查更新直接读 latest.json，不依赖飞书通知"
+        }
+      ]
     }
   }
 }
